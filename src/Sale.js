@@ -15,7 +15,7 @@ function Sale(props) {
     
     
     useEffect( ()=>{
-        fetch(`https://web422assign.herokuapp.com/api/sales/${props.id}`)
+        fetch(`https://web32.herokuapp.com/api/sales/${props.id}`)
         .then(res => res.json())
         .then((data) => {
                 if (data._id) {

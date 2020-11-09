@@ -9,7 +9,7 @@ function Sales(props) {
 
   useEffect(()=>{
     {
-      fetch(`https://web422assign.herokuapp.com/api/sales?page=${currentPage}&perPage=10`)
+      fetch(`https://web32.herokuapp.com/api/sales?page=${currentPage}&perPage=10`)
       .then(res => res.json()) 
       .then(obj => { 
         setSale(obj);  
